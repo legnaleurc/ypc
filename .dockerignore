@@ -1,6 +1,10 @@
+Dockerfile
+compose.yaml
+
 # python
 **/__pycache__
 .venv
+.python-version
 
 # env files
 .env

@@ -1,7 +1,7 @@
 import re
-from collections.abc import Iterator, Iterable
+from collections.abc import Iterable, Iterator
 from random import choice
-from typing import Self, Protocol
+from typing import Protocol, Self
 
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes

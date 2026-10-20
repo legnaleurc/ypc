@@ -1,6 +1,7 @@
 # python
 *.pyc
 .Python
+/.venv
 .python-version
 
 # env files

@@ -2,8 +2,7 @@ from collections.abc import Sequence
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
-from sqlalchemy.sql.expression import select, insert, delete, update
-
+from sqlalchemy.sql.expression import delete, insert, select, update
 
 from ._models import Base, Murmur
 

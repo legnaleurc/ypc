@@ -1,10 +1,10 @@
-from dataclasses import dataclass
 import os
+from dataclasses import dataclass
 
 from telegram.ext import Application
 
 from ._cmd import setup_commands
-from ._db import initialize, Database
+from ._db import Database, initialize
 
 
 @dataclass(kw_only=True, frozen=True)
